@@ -96,7 +96,7 @@ if __name__ == "__main__":
         # Input text
         st.header("Ask anything!")
         input_text = st.text_area(
-            "Enter your question", value="Firstly read all the data by yourself from the file?"
+            "Enter your question", value=""
         )
 
         if input_text:
